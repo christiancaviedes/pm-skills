@@ -2,7 +2,21 @@
 
 Use these as starting points. Adapt aggressively. Delete empty sections.
 
-## 1) Decision memo
+## 1) Program brief
+
+- **Initiative:**
+- **Problem / opportunity:**
+- **Goal:**
+- **Why now:**
+- **Scope / non-scope:**
+- **Stakeholders / owners:**
+- **Milestones:**
+- **Dependencies:**
+- **Risks:**
+- **Success metrics:**
+- **Open questions:**
+
+## 2) Decision memo
 
 - **Decision needed:**
 - **Recommendation:**
@@ -80,7 +94,28 @@ Use these as starting points. Adapt aggressively. Delete empty sections.
 - **Corrective actions:**
 - **Owners / dates:**
 
-## 8) KPI definition
+## 8) RAID review
+
+- **Risk / assumption / issue / dependency:**
+- **Description:**
+- **Owner:**
+- **Severity:**
+- **Timing:**
+- **Mitigation / escalation:**
+- **Current status:**
+
+## 9) Operating review
+
+- **Review period:**
+- **Initiatives covered:**
+- **Overall status:**
+- **Wins / progress:**
+- **Slippage / concerns:**
+- **Cross-program dependencies:**
+- **Leadership decisions needed:**
+- **Next review checkpoint:**
+
+## 10) KPI definition
 
 - **Metric name:**
 - **Business purpose:**

@@ -1,6 +1,6 @@
 # Repo Vision
 
-Build the strongest public repository for PM operating skills.
+Build the strongest public repository for program management operating skills.
 
 ## Standard
 
@@ -21,12 +21,13 @@ This repo should feel:
 ## Expansion path
 
 Likely future skills:
-- product-strategy
 - tpm-execution
 - exec-communication
 - launch-operations
-- user-research-synthesis
-- metrics-and-instrumentation
+- risk-and-dependencies
+- operating-reviews
+- portfolio-planning
+- stakeholder-management
 - incident-postmortems
 
 ## Non-goals

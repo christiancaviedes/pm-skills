@@ -1,50 +1,162 @@
-# PM Skills
+# Program Management Skills
 
-A public, world-class PM skills repo for AI agents and humans.
+**World-class program management skills for Claude, Codex, Cursor, and other AI coding agents.**
 
-This repo is built to help generate sharper PM outputs: better PRDs, cleaner strategy memos, stronger launch plans, tighter stakeholder updates, more honest prioritization, and higher-signal execution docs.
+Build stronger program briefs, launch plans, status updates, cross-functional execution docs, RAID logs, operating cadences, decision memos, stakeholder comms, postmortems, and portfolio planning artifacts.
 
-## What this is
+If you lead ambiguous, cross-functional work and want AI outputs that sound like a top-tier program leader instead of generic PM sludge, this repo is for you.
 
-Most PM prompt packs are bloated, generic, or process-theater-heavy.
+---
 
-This repo is different:
-- decision-first
-- concise by default
-- explicit about tradeoffs
-- optimized for real product/program work under ambiguity
-- designed for reusable skill systems, not just copy-paste prompts
+## Why this repo exists
 
-## Included
+Most "PM prompt" repos are weak in the exact places real program work matters:
 
-### `skills/public/pm-world-class`
-A reusable AgentSkill for:
-- PRDs
+- vague templates
+- fluffy strategy language
+- no operating cadence
+- no escalation judgment
+- no cross-functional rigor
+- no distinction between product management and program management
+- no clear artifact quality bar
+
+This repo fixes that.
+
+It is built around **program management as an execution discipline**:
+- turning ambiguity into plans
+- aligning stakeholders without wasting words
+- surfacing risks early
+- driving decisions across teams
+- making launches, dependencies, and tradeoffs legible
+
+---
+
+## What makes this different
+
+### 1) Built for **program management**, not generic PM vibes
+This repo focuses on the actual work strong program managers do:
+- execution planning
+- dependency management
+- launch coordination
+- cross-functional alignment
+- risk management
+- decision hygiene
+- operating rhythms
+- executive-ready updates
+
+### 2) Compatible with **Claude** and other agent systems
+The repo is organized as reusable **AgentSkills**, with clean `SKILL.md` files and modular references.
+
+That makes it usable with:
+- Claude-compatible skill systems
+- Codex / OpenClaw-style skill systems
+- Cursor workflows
+- any agent that can read structured instructions from a repo
+
+### 3) Designed for **real artifacts**, not motivational fluff
+You get concrete help for:
+- program briefs
+- launch plans
+- roadmap sequencing
+- weekly exec updates
+- RAID logs
+- postmortems
+- KPI definitions
+- operating reviews
+- escalation notes
+- decision memos
+
+### 4) Higher writing quality bar
+This repo pushes toward:
+- recommendation-first writing
+- concise executive communication
+- explicit tradeoffs
+- measurable outcomes
+- stronger reasoning under ambiguity
+
+### 5) Better than template dumps
+Most alternatives give you prompts.
+
+This repo gives you an **operating system**:
+- framing questions
+- artifact templates
+- prioritization logic
+- quality bar checklists
+- before/after examples
+- modular specialization paths
+
+---
+
+## Best for
+
+- program managers
+- technical program managers
+- chiefs of staff / strategic ops leads
+- product ops leaders
+- founders running cross-functional execution
+- engineering managers who need cleaner planning and status artifacts
+- AI users who want better program documentation from Claude or Codex
+
+---
+
+## Core value proposition
+
+**Use this repo to make AI produce program management work that is sharper, more credible, and more useful in real organizations.**
+
+In plain English:
+- better launch plans
+- better weekly updates
+- better exec communication
+- better risk visibility
+- better planning docs
+- less filler
+- less fake strategy language
+- more signal
+
+---
+
+## Included now
+
+### `pm-world-class`
+A flagship skill for world-class program and strategic execution artifacts.
+
+It helps with:
+- program briefs
 - decision memos
 - strategy docs
-- roadmaps
+- cross-functional execution plans
 - launch plans
-- stakeholder updates
+- weekly stakeholder updates
 - KPI definitions
 - postmortems
 - prioritization support
 
-## Why this is better than typical PM skills repos
+### Reference modules
+- **templates** — concise artifact templates
+- **framing questions** — for ambiguous requests
+- **prioritization** — practical ranking methods
+- **quality bar** — final review standards
+- **examples** — before/after writing upgrades
 
-Typical weaknesses:
-- too many claims, not enough craft
-- broad role lists instead of actual operating guidance
-- generic templates with weak judgment
-- no quality bar
-- no system for ambiguous requests
+---
 
-This repo fixes that with:
-- a clear PM operating model
-- concise, high-utility templates
-- framing questions for ambiguity
-- practical prioritization methods
-- strong before/after writing examples
-- an explicit quality bar
+## Planned expansion
+
+This repo is being expanded into a broader **program management skill suite**.
+
+Planned modules:
+- `tpm-execution`
+- `exec-communication`
+- `launch-operations`
+- `risk-and-dependencies`
+- `operating-reviews`
+- `postmortem-systems`
+- `portfolio-planning`
+- `stakeholder-management`
+
+That is the path to making this the strongest public repo in the category.
+
+---
 
 ## Repo structure
 
@@ -52,52 +164,103 @@ This repo fixes that with:
 pm-skills-repo/
 ├── README.md
 ├── LICENSE
-├── skills/
-│   └── public/
-│       └── pm-world-class/
-│           ├── SKILL.md
-│           └── references/
-│               ├── examples.md
-│               ├── framing-questions.md
-│               ├── prioritization.md
-│               ├── quality-bar.md
-│               └── templates.md
-└── docs/
-    └── repo-vision.md
+├── docs/
+│   ├── repo-vision.md
+│   ├── claude-compatibility.md
+│   ├── use-cases.md
+│   └── why-this-is-better.md
+├── dist/
+│   └── pm-world-class.skill
+└── skills/
+    └── public/
+        └── pm-world-class/
+            ├── SKILL.md
+            └── references/
+                ├── examples.md
+                ├── framing-questions.md
+                ├── prioritization.md
+                ├── quality-bar.md
+                └── templates.md
 ```
 
-## Design principles
+---
 
-1. **Decision quality over ceremony**
-2. **Concise artifacts over bloated docs**
-3. **Tradeoffs over vague optimism**
-4. **Execution clarity over PM theater**
-5. **Evidence over adjectives**
+## Example use cases
 
-## Best use cases
+Use this repo when you want Claude or another AI agent to help you:
 
-Use this repo when you want an AI assistant to help with:
-- writing a high-quality PRD fast
-- turning a fuzzy request into a structured strategy memo
-- producing exec-ready stakeholder updates
-- creating launch and rollout plans
-- prioritizing initiatives with visible tradeoffs
-- writing credible postmortems and KPI definitions
+- write a launch plan for a cross-functional initiative
+- turn a fuzzy initiative into a crisp program brief
+- produce a VP-ready weekly status update
+- identify risks, dependencies, and owners
+- create a postmortem that fixes systems instead of assigning blame
+- structure an operating review or portfolio update
+- prioritize work with explicit tradeoffs
 
-## Public-sharing goal
+---
 
-The aim is simple: make this the best PM skills repo on the internet.
+## Why it is better than most alternatives
 
-Not the biggest.
-The sharpest.
+Most PM/Agile/Jira prompt collections optimize for breadth.
+This repo optimizes for **quality of thinking**.
 
-## Next upgrades
+What you get here that you usually do not get elsewhere:
+- a cleaner distinction between program management and product management
+- stronger execution framing
+- clearer escalation behavior
+- sharper executive communication standards
+- less ceremony, more decision quality
+- more reusable structure for agent workflows
 
-Recommended follow-up improvements:
-- add packaged `.skill` release artifacts
-- add benchmark examples against weak PM outputs
-- add specialized companion skills for product strategy, TPM, launch ops, and executive comms
-- add a real-world sample pack from SaaS, AI platform, and marketplace contexts
+---
+
+## SEO / search intent this repo targets
+
+This repo is intentionally positioned to be discoverable for searches like:
+- program management AI prompts
+- Claude program management skill
+- best PM prompts for Claude
+- technical program manager AI prompts
+- launch planning AI template
+- stakeholder update template AI
+- program brief template AI
+- AI skill for program managers
+
+---
+
+## Claude compatibility
+
+See [`docs/claude-compatibility.md`](docs/claude-compatibility.md).
+
+Short version:
+- modular skill layout
+- concise `SKILL.md`
+- reference-driven expansion
+- easy for Claude-compatible systems to ingest
+- packaged `.skill` artifact included
+
+---
+
+## Installation / usage
+
+Right now this repo includes a packaged skill artifact plus source files.
+
+### Use the packaged skill
+- `dist/pm-world-class.skill`
+
+### Use the source directly
+Point your Claude/Codex-compatible agent workflow at:
+- `skills/public/pm-world-class/`
+
+---
+
+## Editorial standard
+
+If a section sounds impressive but does not improve decision quality or execution clarity, it should be cut.
+
+That is the bar for this repo.
+
+---
 
 ## License
 

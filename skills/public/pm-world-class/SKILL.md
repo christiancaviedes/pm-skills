@@ -1,6 +1,6 @@
 ---
 name: pm-world-class
-description: World-class product and program management operating system for ambiguous, cross-functional work. Use when creating PRDs, roadmaps, strategy docs, decision memos, stakeholder updates, launch plans, execution plans, prioritization frameworks, metrics definitions, risk registers, or postmortems; when a user asks for PM, product, TPM, program, roadmap, launch, strategy, or executive communication help; or when work needs sharper structure, tradeoff thinking, and higher quality written artifacts.
+description: World-class program management operating system for ambiguous, cross-functional execution. Use when creating program briefs, launch plans, operating reviews, stakeholder updates, decision memos, dependency maps, RAID logs, risk escalations, portfolio plans, KPI definitions, postmortems, roadmap sequencing docs, or executive communication; when a user asks for program management, technical program management, cross-functional execution, launch readiness, governance, or strategic operations help; or when work needs clearer structure, stronger tradeoff thinking, and more credible leadership-grade artifacts.
 ---
 
 # PM World Class
@@ -48,13 +48,15 @@ If the request is fuzzy, use the framing questions in `references/framing-questi
 ### 2. Classify the artifact
 
 Choose one primary artifact type:
-- PRD / feature spec
+- program brief
 - strategy memo
 - roadmap / prioritization doc
 - launch / execution plan
 - stakeholder update
 - decision memo
 - metrics / KPI definition
+- RAID / risk review
+- operating review / portfolio review
 - postmortem / retrospective
 - meeting brief / exec readout
 
@@ -94,9 +96,31 @@ Use the quality bar in `references/quality-bar.md`.
 
 ## Artifact playbooks
 
+### Program brief
+
+Use when an initiative needs execution clarity across functions.
+
+Include:
+- problem / opportunity
+- goal
+- scope / non-scope
+- stakeholders / owners
+- milestones
+- dependencies
+- risks
+- success metrics
+- decision points
+- open questions
+
+Good program management behavior:
+- define what must be true for launch or completion
+- distinguish phase 1 from later expansion
+- identify cross-functional dependency risk early
+- make ownership and cadence obvious
+
 ### PRD / feature spec
 
-Use when the team needs implementation clarity.
+Use when the team also needs product or implementation clarity.
 
 Include:
 - problem
@@ -109,12 +133,6 @@ Include:
 - metrics
 - rollout notes
 - open questions
-
-Good PM behavior:
-- define what must be true for launch
-- distinguish MVP from future scope
-- identify ambiguous requirements early
-
 ### Strategy memo
 
 Use when direction, investment, or sequencing is the real problem.
@@ -171,12 +189,40 @@ Default structure:
 - status: on track / at risk / off track
 - what changed since last update
 - current focus
-- risks / blockers
+- top risks / blockers
+- dependencies needing attention
 - decisions needed
 - next milestone
 
 Keep it scannable. Avoid essay format.
 
+### RAID / risk review
+
+Use when execution risk, dependencies, or unresolved issues are the real story.
+
+Include:
+- risks
+- assumptions
+- issues
+- dependencies
+- owner per item
+- severity / timing
+- mitigation or escalation path
+
+Use this when a generic status update would hide the real execution picture.
+
+### Operating review / portfolio review
+
+Use when leadership needs a compressed view across multiple initiatives.
+
+Include:
+- initiative list
+- current status by initiative
+- slippage / variance
+- major dependency patterns
+- top decisions needed
+- resource or sequencing implications
+- next review milestone
 ### Decision memo
 
 Use when multiple stakeholders need a clean recommendation.
@@ -263,7 +309,7 @@ Do not:
 ## Resource map
 
 Read only what you need:
-- `references/templates.md` — concise templates for common PM artifacts
+- `references/templates.md` — concise templates for common program management artifacts
 - `references/framing-questions.md` — questions for ambiguous requests
 - `references/prioritization.md` — practical prioritization methods
 - `references/quality-bar.md` — final review checklist
