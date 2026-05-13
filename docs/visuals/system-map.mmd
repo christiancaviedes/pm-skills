@@ -1,0 +1,20 @@
+flowchart TD
+    A[Ambiguous Initiative] --> B[Framing & Problem Definition]
+    B --> C[Program Brief]
+    C --> D[Prioritization & Sequencing]
+    D --> E[Launch / Execution Plan]
+    E --> F[Weekly Stakeholder Updates]
+    E --> G[RAID / Dependency Review]
+    F --> H[Operating Review]
+    G --> H
+    H --> I[Decision Memo / Escalation]
+    I --> J[Launch Outcome]
+    J --> K[Postmortem / System Learning]
+
+    L[pm-world-class] --> C
+    L --> D
+    M[tpm-execution] --> E
+    N[exec-communication] --> F
+    O[risk-and-dependencies] --> G
+    P[operating-reviews] --> H
+    Q[launch-operations] --> J
