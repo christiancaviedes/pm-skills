@@ -1,0 +1,42 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1600" height="900" fill="#07111F"/>
+  <rect x="56" y="56" width="1488" height="788" rx="28" fill="url(#bg)" stroke="rgba(255,255,255,0.12)"/>
+  <g opacity="0.5" filter="url(#blur)">
+    <circle cx="1260" cy="180" r="220" fill="#2DD4BF"/>
+    <circle cx="340" cy="220" r="180" fill="#60A5FA"/>
+    <circle cx="840" cy="690" r="220" fill="#A78BFA"/>
+  </g>
+  <text x="120" y="190" fill="white" font-size="28" font-family="Georgia, serif" letter-spacing="4">SIGNAL PROGRAM SYSTEMS</text>
+  <text x="120" y="320" fill="white" font-size="86" font-weight="700" font-family="Georgia, serif">Program management</text>
+  <text x="120" y="410" fill="white" font-size="86" font-weight="700" font-family="Georgia, serif">skills with actual taste.</text>
+  <text x="120" y="500" fill="#D6E3F0" font-size="30" font-family="Arial, sans-serif">Leadership-grade skills for Claude, Codex, and modern AI agents.</text>
+  <text x="120" y="545" fill="#D6E3F0" font-size="30" font-family="Arial, sans-serif">Launch plans. RAID logs. Exec updates. Operating reviews. Cross-functional rigor.</text>
+  <rect x="120" y="610" width="356" height="66" rx="14" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="152" y="652" fill="white" font-size="26" font-family="Arial, sans-serif">signal > noise</text>
+  <rect x="1000" y="220" width="420" height="420" rx="24" fill="rgba(8,18,31,0.76)" stroke="rgba(255,255,255,0.12)"/>
+  <text x="1040" y="280" fill="#B7C7DA" font-size="24" font-family="Arial, sans-serif">System Map</text>
+  <rect x="1040" y="320" width="150" height="52" rx="12" fill="#13253A" stroke="#274560"/>
+  <text x="1062" y="353" fill="white" font-size="22" font-family="Arial, sans-serif">Brief</text>
+  <rect x="1240" y="320" width="150" height="52" rx="12" fill="#13253A" stroke="#274560"/>
+  <text x="1260" y="353" fill="white" font-size="22" font-family="Arial, sans-serif">Launch</text>
+  <rect x="1040" y="412" width="150" height="52" rx="12" fill="#13253A" stroke="#274560"/>
+  <text x="1063" y="445" fill="white" font-size="22" font-family="Arial, sans-serif">RAID</text>
+  <rect x="1240" y="412" width="150" height="52" rx="12" fill="#13253A" stroke="#274560"/>
+  <text x="1258" y="445" fill="white" font-size="22" font-family="Arial, sans-serif">Exec</text>
+  <rect x="1140" y="506" width="150" height="52" rx="12" fill="#13253A" stroke="#274560"/>
+  <text x="1150" y="539" fill="white" font-size="22" font-family="Arial, sans-serif">Reviews</text>
+  <path d="M1190 346H1240" stroke="#7DD3FC" stroke-width="3"/>
+  <path d="M1115 372V412" stroke="#7DD3FC" stroke-width="3"/>
+  <path d="M1315 372V412" stroke="#7DD3FC" stroke-width="3"/>
+  <path d="M1115 464L1190 506" stroke="#7DD3FC" stroke-width="3"/>
+  <path d="M1315 464L1240 506" stroke="#7DD3FC" stroke-width="3"/>
+  <defs>
+    <linearGradient id="bg" x1="56" y1="56" x2="1544" y2="844" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A1728"/>
+      <stop offset="1" stop-color="#091321"/>
+    </linearGradient>
+    <filter id="blur" x="-20" y="-20" width="1640" height="940" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="90"/>
+    </filter>
+  </defs>
+</svg>

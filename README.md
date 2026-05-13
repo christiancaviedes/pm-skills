@@ -1,112 +1,108 @@
-# Program Management Skills
+# Signal Program Systems
+
+<div align="center">
+  <img src="docs/visuals/hero.svg" alt="Signal Program Systems hero" width="100%" />
+</div>
 
 <div align="center">
 
-**The most ambitious public skill suite for program managers, technical program managers, and cross-functional execution leaders using Claude, Codex, Cursor, and modern AI agents.**
+**Leadership-grade program management skills for Claude, Codex, Cursor, and modern AI agents.**
 
-*Turn vague initiatives into launch plans, operating reviews, stakeholder updates, RAID logs, decision memos, portfolio summaries, and leadership-grade execution systems.*
+*The premium public skill suite for launch plans, RAID logs, operating reviews, executive updates, decision memos, and cross-functional execution systems.*
 
 </div>
 
 ---
 
-## The pitch
+## What this is
 
-Most AI prompt repos for PM work are shallow.
+**Signal Program Systems** is a high-end, public skill suite for people who lead complex work.
 
-They give you:
+It helps AI produce program management artifacts that are:
+- sharper
+- more credible
+- more executive-ready
+- more useful under ambiguity
+- more operationally grounded than typical PM prompt packs
+
+This repo is built for:
+- program managers
+- technical program managers
+- chiefs of staff
+- product ops / business ops leaders
+- founders and operators coordinating multi-team execution
+- AI users who want Claude to write like a serious program leader
+
+---
+
+## Why it exists
+
+Most PM prompt repos are weak in the places real program work matters.
+
+They usually have:
 - generic templates
-- Jira-flavored theater
-- Agile buzzwords
-- weak writing
-- no judgment under ambiguity
-- no distinction between product management and program management
+- agile/process theater
+- shallow value props
+- weak writing taste
+- poor handling of risks and dependencies
+- no real distinction between product management and program management
+- no premium public presentation
 
-This repo is built to do the opposite.
+Signal Program Systems is built to be the opposite.
 
-**Program Management Skills** is a public, Claude-compatible skill suite for producing sharper, more credible, more useful program management artifacts.
+It is designed around one standard:
 
-It is designed for people doing real coordination work across product, engineering, design, data, ops, GTM, and leadership — not just filling out PM docs for appearance.
-
----
-
-## Why this repo matters
-
-Program management is one of the highest-leverage places AI can help — and one of the easiest to do badly.
-
-Weak AI outputs in this category usually fail because they:
-- bury the decision
-- hide the risk
-- avoid naming tradeoffs
-- sound polished but say very little
-- miss ownership, sequencing, and cadence
-- collapse under ambiguous prompts
-
-This suite is built around the opposite standard:
-- recommendation-first communication
-- execution clarity
-- dependency visibility
-- risk discipline
-- leadership-grade concision
-- reusable operating structure
+> **If it does not improve decision quality, execution clarity, or leadership communication, it should not exist.**
 
 ---
 
-## What makes this different
+## Why it is different
 
-### 1. Built for **program management**, not generic PM vibes
-This repo focuses on the actual work strong program leaders do:
-- integrated execution planning
+### Program-management-native
+This suite is explicitly built for:
+- cross-functional execution
 - launch readiness
-- cross-functional sequencing
-- dependency and risk management
-- operating cadence design
-- executive updates
-- portfolio review compression
+- risk and dependency management
+- operating cadences
+- executive communication
+- portfolio compression
 - escalation and decision hygiene
 
-### 2. Designed for **Claude compatibility**
-The skills are modular, high-signal, and easy for Claude-style systems to load incrementally.
+### Claude-compatible by design
+The repo is structured as modular AgentSkills with clean `SKILL.md` files and deeper `references/` docs only when needed.
 
-That means:
-- concise `SKILL.md` files
-- deeper reference files only when needed
-- structured artifact guidance
-- packaged `.skill` delivery for compatible systems
+That makes it well suited to Claude-style skill workflows as well as Codex/Cursor-style agent systems.
 
-See [`docs/claude-compatibility.md`](docs/claude-compatibility.md).
-
-### 3. Better than template dumps
-This is not a bag of prompts.
-It is an operating system.
+### Better than prompt dumps
+Most repos in this category are just collections of prompts.
+This is an **operating system**.
 
 You get:
-- artifact templates
+- skills
+- templates
 - framing questions
-- prioritization methods
-- escalation logic
-- risk/dependency structures
-- benchmark examples
 - quality bars
+- benchmark examples
+- visual system maps
+- scenario packs
+- install/use guidance
 
-### 4. Built for real work under ambiguity
-The suite is designed for the moment when a leader says:
-- “turn this into a real plan”
-- “give me the exec update”
-- “what’s the risk picture?”
-- “how do we launch this cleanly?”
-- “what decision do I actually need to make?”
-
-### 5. Stronger writing standard
-This repo pushes AI toward outputs that are:
-- tighter
-- more specific
-- less fluffy
-- more usable in an actual org
+### Higher taste level
+This repo is biased toward:
+- concise executive writing
+- explicit tradeoffs
+- real ownership and sequencing
+- less filler
+- stronger escalation behavior
+- more useful outputs from vague inputs
 
 ---
 
 ## Visual system map
+
+<div align="center">
+  <img src="docs/visuals/comparison.svg" alt="Comparison graphic" width="92%" />
+</div>
 
 ```mermaid
 flowchart TD
@@ -136,7 +132,7 @@ flowchart TD
 ## Skill suite
 
 ### `pm-world-class`
-Flagship skill for leadership-grade program artifacts.
+The flagship skill for leadership-grade program artifacts.
 
 Best for:
 - program briefs
@@ -146,7 +142,7 @@ Best for:
 - KPI definitions
 - postmortems
 - roadmap sequencing
-- RAID / operating review framing
+- operating review framing
 
 ### `tpm-execution`
 For turning complex multi-team work into executable plans.
@@ -198,35 +194,6 @@ Best for:
 
 ---
 
-## Who this is for
-
-This repo is best for:
-- program managers
-- technical program managers
-- chiefs of staff
-- product ops / business ops leaders
-- startup operators
-- founders managing cross-functional execution
-- engineering/product leaders who need stronger planning artifacts
-- AI power users who want Claude to behave more like a serious program leader
-
----
-
-## Example use cases
-
-Use this suite when you want AI help with:
-- writing a program brief from a fuzzy initiative
-- turning a rough launch into a full execution plan
-- producing a VP-ready weekly status update
-- surfacing risks, assumptions, issues, and dependencies clearly
-- creating an operating review across multiple initiatives
-- writing a postmortem that fixes systems instead of assigning blame
-- building a portfolio summary with real tradeoffs
-
-See [`docs/use-cases.md`](docs/use-cases.md).
-
----
-
 ## Example transformation
 
 ### Weak AI output
@@ -239,70 +206,89 @@ See [`docs/use-cases.md`](docs/use-cases.md).
 - **Decision needed:** Approve temporary manual fallback by Thursday EOD.
 - **Next milestone:** End-to-end staging validation Friday.
 
-See more in [`docs/examples.md`](docs/examples.md).
+More examples:
+- [`docs/examples.md`](docs/examples.md)
+- [`docs/benchmarks.md`](docs/benchmarks.md)
 
 ---
 
-## Why this is better than most alternatives
+## Scenario pack
 
-Short version: it is built for **execution rigor**, not just prompt aesthetics.
+This suite is designed to handle real high-value scenarios such as:
+- AI platform launches
+- marketplace reliability programs
+- enterprise migrations
+- SaaS onboarding launches
+- internal tooling rollouts
 
-What you get here that you usually do not get elsewhere:
-- a clearer separation between program management and product management
-- stronger dependency and risk framing
-- more credible escalation behavior
-- better executive writing patterns
-- more useful outputs from vague prompts
-- a modular structure that scales well for Claude-compatible workflows
-
-See [`docs/why-this-is-better.md`](docs/why-this-is-better.md).
+See [`docs/scenario-pack.md`](docs/scenario-pack.md).
 
 ---
 
-## Search and discoverability
+## Search / discoverability targets
 
-This repo is intentionally positioned for search intent such as:
+This repo is intentionally built to rank and be discoverable for searches like:
 - program management AI prompts
 - Claude program management skill
 - best PM prompts for Claude
 - technical program manager AI prompts
 - launch planning AI template
-- stakeholder update template AI
 - program brief template AI
+- stakeholder update template AI
 - RAID log AI prompt
 - operating review AI template
 - AI skills for program managers
 
 ---
 
-## Benchmarks
+## Install / use
 
-This suite is designed to outperform generic AI outputs on:
-- clarity of recommendation
-- usefulness under ambiguity
-- ownership and milestone specificity
-- risk visibility
-- executive readability
-- decision quality
+See [`docs/install.md`](docs/install.md).
 
-See [`docs/benchmarks.md`](docs/benchmarks.md).
+Quick version:
+- packaged artifact: `dist/pm-world-class.skill`
+- source skills: `skills/public/`
+- Claude-compatible usage: load the relevant `SKILL.md`, then pull in only the reference docs needed for the artifact you want
+
+---
+
+## Why this is better than most alternatives
+
+Short version:
+- stronger value proposition
+- stronger writing taste
+- stronger execution rigor
+- stronger program-management specificity
+- stronger public presentation
+- stronger compatibility with modern agent systems
+
+Read more:
+- [`docs/why-this-is-better.md`](docs/why-this-is-better.md)
+- [`docs/claude-compatibility.md`](docs/claude-compatibility.md)
+- [`docs/landscape.md`](docs/landscape.md)
 
 ---
 
 ## Repo structure
 
 ```text
-pm-skills-repo/
+signal-program-systems/
 ├── README.md
 ├── LICENSE
 ├── docs/
 │   ├── benchmarks.md
+│   ├── brand.md
 │   ├── claude-compatibility.md
 │   ├── examples.md
+│   ├── install.md
+│   ├── landscape.md
 │   ├── repo-vision.md
+│   ├── scenario-pack.md
 │   ├── use-cases.md
 │   ├── why-this-is-better.md
 │   └── visuals/
+│       ├── comparison.svg
+│       ├── hero.svg
 │       ├── system-map.mmd
 │       └── why-better.mmd
 ├── dist/
@@ -319,26 +305,18 @@ pm-skills-repo/
 
 ---
 
-## Install / use
-
-### Packaged skill
-Use:
-- `dist/pm-world-class.skill`
-
-### Source skills
-Use directly from:
-- `skills/public/`
-
-### Claude-compatible workflows
-Point your system at the relevant `SKILL.md` and load the associated references as needed.
-
----
-
 ## Standard
 
-If a section sounds impressive but does not improve decision quality, execution clarity, or leadership communication, it should not exist.
+If a section sounds impressive but does not improve:
+- decision quality
+- execution clarity
+- leadership communication
+- risk visibility
+- launch readiness
 
-That is the standard for this repo.
+it should be cut.
+
+That is the standard for Signal Program Systems.
 
 ---
 
