@@ -1,7 +1,7 @@
-# Signal Program Systems
+# Program Management Skills
 
 <div align="center">
-  <img src="docs/visuals/hero.svg" alt="Signal Program Systems hero" width="100%" />
+  <img src="docs/visuals/hero.svg" alt="Program Management Skills hero" width="100%" />
 </div>
 
 <div align="center">
@@ -16,7 +16,7 @@
 
 ## What this is
 
-**Signal Program Systems** is a high-end, public skill suite for people who lead complex work.
+**Program Management Skills** is a high-end, public skill suite for people who lead complex work.
 
 It helps AI produce program management artifacts that are:
 - sharper
@@ -272,7 +272,7 @@ Read more:
 ## Repo structure
 
 ```text
-signal-program-systems/
+program-management-skills/
 ├── README.md
 ├── LICENSE
 ├── docs/
@@ -316,7 +316,7 @@ If a section sounds impressive but does not improve:
 
 it should be cut.
 
-That is the standard for Signal Program Systems.
+That is the standard for Program Management Skills.
 
 ---
 

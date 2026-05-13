@@ -1,10 +1,10 @@
 <svg width="1400" height="900" viewBox="0 0 1400 900" fill="none" xmlns="http://www.w3.org/2000/svg">
   <rect width="1400" height="900" fill="#08111E"/>
-  <text x="90" y="120" fill="white" font-size="54" font-family="Georgia, serif">Why Signal Program Systems feels different</text>
+  <text x="90" y="120" fill="white" font-size="54" font-family="Georgia, serif">Why Program Management Skills feels different</text>
   <rect x="90" y="180" width="520" height="580" rx="24" fill="#131E2A" stroke="#2A3B4F"/>
   <rect x="790" y="180" width="520" height="580" rx="24" fill="#0E2530" stroke="#2DD4BF"/>
   <text x="130" y="245" fill="#B7C7DA" font-size="30" font-family="Arial, sans-serif">Typical PM prompt repo</text>
-  <text x="830" y="245" fill="#BFF8EE" font-size="30" font-family="Arial, sans-serif">Signal Program Systems</text>
+  <text x="830" y="245" fill="#BFF8EE" font-size="30" font-family="Arial, sans-serif">Program Management Skills</text>
   <g fill="#E5EDF6" font-size="28" font-family="Arial, sans-serif">
     <text x="130" y="330">• generic templates</text>
     <text x="130" y="395">• PM/agile buzzwords</text>

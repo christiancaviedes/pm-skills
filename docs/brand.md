@@ -2,17 +2,17 @@
 
 ## New name
 
-**Signal Program Systems**
+**Program Management Skills**
 
 ## Why this name
 
-It sounds sharper, more premium, and more memorable than a generic descriptive repo name.
+It is blunt, searchable, and aligned with how people actually look for this category.
 
 It signals:
-- signal over noise
-- systems over prompt clutter
-- program leadership over generic PM vibes
+- exactly what the repo is
+- strong search relevance for program management queries
+- less ambiguity for GitHub and Google discovery
 
 ## Positioning line
 
-Leadership-grade program management skills for Claude and modern AI agents.
+The best public program management skills repo for Claude and modern AI agents.
